@@ -80,7 +80,7 @@ class Home extends Component {
     }else if(!phoneNo.toString().length){
       alertTip = '请填写正确的手机号';
     }else{
-      alertTip = '添加数据成功';
+      alertTip = '添加数据成功1';
       this.props.clearSelected();
       this.props.clearData();
     }
